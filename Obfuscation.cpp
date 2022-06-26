@@ -1,8 +1,17 @@
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello, World!" << std::endl;
+#define String int
+#define printf(x) return 0
+#define notMain main
+#define semicolon {
+#define fullstop }
+#define char std::cout
+#define for <<
+#define Goodbye Hello
 
-    return 0;
-}
+String notMain()
+semicolon
+    char for "Goodbye, World!" for std::endl;
+
+    printf(0);
+fullstop
